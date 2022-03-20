@@ -43,7 +43,7 @@ function RecipeCreate({ createRecipe }) {
               placeholder="Name"
               />
             </td>
-            <br/>
+            
             <td> 
             <input 
               type="text" 
@@ -53,7 +53,7 @@ function RecipeCreate({ createRecipe }) {
               placeholder="cuisine"
               />
             </td>
-            <br/>
+            
             <td> 
             <input 
               type="text" 
@@ -62,7 +62,7 @@ function RecipeCreate({ createRecipe }) {
               value={formData.photo}
               />
             </td>
-            <br/>
+            
             <td> 
             <textarea
               type="text" 
@@ -73,7 +73,7 @@ function RecipeCreate({ createRecipe }) {
               textarea="Ingredients"
               />
             </td>
-            <br/>
+            
             <td> 
             <textarea
               type="text" 
@@ -83,7 +83,7 @@ function RecipeCreate({ createRecipe }) {
               placeholder="preparation"
               />
             </td>
-            <br/>
+            
             <td>
               <button type="submit">Create</button>
             </td>
